@@ -1,0 +1,12 @@
+<nav class="navbar fixed-top navbar-light bg-white ">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="/">Marijan<span class="text-danger fw-bold">Brvar</span></a>
+    <ul class="nav justify-content-end">
+      {% for item in site.data.navbar %}
+        <li class="nav-item">
+          <a class="nav-link text-black-50" aria-current="page" href="{{ item.link }}">{{ item.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
