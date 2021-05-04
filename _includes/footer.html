@@ -2,7 +2,7 @@
   <div class="container d-flex justify-content-between">
     <div>
       {% for item in site.data.contact %}
-        <i class="fs-5 mx-1 text-muted bi {{item.icon}}"></i></h5>
+       <a href="{{item.link}}" target="_blank"> <i class="fs-5 mx-1 text-muted bi {{item.icon}}"></i></a>
       {% endfor %}
     </div>
    <div> <a class="navbar-brand fw-bold link-dark" href="/"><small>Marijan<span class="text-danger fw-bold">Brvar</span> </small></a></div>
