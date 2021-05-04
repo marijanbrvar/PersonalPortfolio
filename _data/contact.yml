@@ -1,15 +1,10 @@
 - name: Linkedin
   link: https://www.linkedin.com/in/marijanbrvar/
-  email:
-  photo_1: assets/linkedin_2.jpeg
-  photo_2: assets/linkedin_1.jpeg
+  icon: bi-linkedin
 - name: Email
   link:  mailto:hello@marijan.xyz?subject=Personal%20portfolio%20contact
   email: hello@marijan.xyz
-  photo_1: assets/email_2.jpeg
-  photo_2: assets/email_1.jpeg
+  icon: bi-at
 - name: Github
   link: https://github.com/marijanbrvar
-  email:
-  photo_1: assets/git_2.png
-  photo_2: assets/git_1.jpeg
+  icon: bi-github
