@@ -1,1 +1,1 @@
-Sitemap: http://www.marijan.xyz/sitemap.xml
+Sitemap: https://www.marijan.xyz/sitemap.xml
