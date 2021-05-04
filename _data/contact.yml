@@ -8,3 +8,6 @@
 - name: Github
   link: https://github.com/marijanbrvar
   icon: bi-github
+- name: Twitter
+  link: https://twitter.com/brvar_marijan
+  icon: bi-twitter
