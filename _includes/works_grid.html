@@ -1,0 +1,19 @@
+<div class="my-5">
+  <p class="fs-5 fw-light">Here are some of my applications I wish to share with you.</p>
+  <div class="row row-cols-md-2 row-cols-1">
+    {% for work in site.works %}
+  <div class="col">
+    <div class="card border-0">
+      <img src="{{work.image}}" alt="placeholder+image">
+      <div class="card-body">
+        <h6 class="title">{{ work.title }}</h6>
+        <div class="d-flex justify-content-between">
+          <p>{{ work.tagline }}</p>
+          <a href="{{work.id}}">More...</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  </div>
+</div>

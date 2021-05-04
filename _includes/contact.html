@@ -1,22 +1,21 @@
 <h6>Contact</h6>
 <h1 class="display-3 fw-normal lh-1">Contact me, <br> let’s get to work</h1>
 <div class="my-5 border border-white"></div>
+<div class="row row-cols-2 row-cols-md-4">
 {% for item in site.data.contact %}
-<div class="row mt-5">
   <div class="col">
-    <div>
-      <a href="{{item.link}}" class="h6 text-decoration-none link-dark">{{item.name }}</a>
-      <p>{{item.email}}</p>
+    <a href="{{item.link}}" class="text-decoration-none link-dark" target="_blank">
+    <div class="card border-0 border-start h-100">
+      <h1><i class="bi {{item.icon}} text-muted ms-3"></i></h1>
+      <div class="card-body">
+        <h6>{{item.name }}</h6>
+      <p><small>{{item.email}}</small></p>
+      </div>
     </div>
+    </a>
   </div>
-  <div class="col d-none d-sm-block">
-    <img src="{{item.photo_1}}" class="img-fluid" alt="placeholder+image" style="max-height: 80px; width: 100%;">
-  </div>
-  <div class="col d-none d-sm-block">
-    <img src="{{item.photo_2}}" class="img-fluid" alt="placeholder+image" style="max-height: 80px; width: 100%;">
-  </div>
-</div>
 {% endfor %}
+</div>
 <div class="row mt-5">
   <div class="col mt-5">
     <div>
